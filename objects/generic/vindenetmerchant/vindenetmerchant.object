@@ -1,0 +1,71 @@
+{
+  "objectName" : "vindenetmerchant",
+  "colonyTags" : ["commerce"],
+  "rarity" : "Essential",
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/merchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Vindenet Merchant",
+        "subtitle" : "He sells shit."
+      }
+    },
+    "buyFactor" : 1.0,
+    "sellFactor" : 0.2,
+    "items" : [
+      { "item" : ["centensianmetal", 10] },
+	  { "item" : ["centensiantech", 5] },
+	  { "item" : "centensianwarpcore" },
+	  { "item" : ["jumpgatecore", 3] },
+	  { "item" : ["theleantissue", 2] },
+	  { "item" : ["theleanmetal", 5] },
+	  { "item" : ["ghavorkanpowercell", 5] },
+	  { "item" : "centens-jumpgun" },
+	  { "item" : "thea-branditzer" },
+	  { "item" : "avikan-profanearbalest" },
+	  { "item" : ["centensgravitystim", 5] },
+	  { "item" : "harrowingcache" },
+	  { "item" : ["alliancesodamix", 2] },
+	  { "item" : "aegimeal" },
+	  { "item" : ["PivoNevskoe", 20] },
+      { "item" : "centensfloatingcube" }
+	  
+    ]
+  },
+  "description" : "Centens just vibing.",
+  "shortdescription" : "Vindenet Merchant",
+  "race" : "generic",
+  "category" : "Merchant",
+  "price" : 1000,
+  
+  "printable" : false,
+  "unbreakable" : false,
+  
+  "floranDescription" : "Floran doesssn't know who isssss he...",
+  "glitchDescription" : "Startled. This Centens seems to be armed.",
+  "hylotlDescription" : "Isn't he aware that Theleans might kidnap him?",
+  "novakidDescription" : "Don't see many Centensian merchants round these parts",
+  "avaliDescription" : "Isn't he aware that Theleans might kidnap him?",
+  "aegiDescription" : "Isn't he supposed to hide? And... Why is he's selling beer in weird language?",
+  "avikanDescription" : "How the Old One cannot just simply cloak himself in robe, but sell something?",
+  "trinkDescription" : "Strangely enough... He lives in a Cargo Container behind him as a house?",
+  "draunaarDescription" : "TODO.",
+  "centensDescription" : "TODO.",
+  "theleanDescription" : "TODO.",
+  "dremetonDescription" : "TODO.",
+  "drodenDescription" : "Detected EMP! System malfucntion! Error. Error. Error.",
+  "akkimariDescription" : "God-maker selling things-many.",
+  
+  "inventoryIcon" : "vindenetmerchanticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "vindenetmerchant.png:<color>.<frame>",
+      "imagePosition" : [-14, 0],
+      "frames" : 9,
+      "animationCycle" : 3,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}
